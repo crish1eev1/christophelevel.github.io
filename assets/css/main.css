@@ -176,6 +176,7 @@ input, select, textarea {
 	}
 
 	p {
+		font-size: 0.8rem;
 		text-align: justify;
 		margin: 0 0 2rem 0;
 	}
@@ -2619,9 +2620,14 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			border: 1px solid #ddd;
+			/* border-radius: 2px;  */
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 2rem;
+			/* margin: 2.5rem 0; */
+			width: 50%;
 		}
 
 			.image.fit:first-child {
@@ -3622,7 +3628,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
-		width: calc(100% - 4rem);
+		width: calc(80% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -3759,7 +3765,7 @@ input, select, textarea {
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(80% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -3779,7 +3785,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 4rem 3rem 4rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3857,13 +3863,13 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 3rem;
 				width: 50%;
 			}
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-left-width: 1px;
 				border-style: solid;
 				border-top-width: 2px;
 				text-align: center;
@@ -3958,7 +3964,7 @@ input, select, textarea {
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
+		width: calc(80% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4276,7 +4282,7 @@ input, select, textarea {
 					}
 
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 1rem 0.5rem 0.5rem 4rem;
 					}
 
 					#footer > section.split.contact > section.alt {
@@ -4395,7 +4401,7 @@ input, select, textarea {
 		text-align: center;
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
-		width: calc(100% - 4rem);
+		width: calc(80% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
